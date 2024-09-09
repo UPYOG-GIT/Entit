@@ -1,0 +1,9 @@
+com\durg\chatbotapi\model\ApiTemplateResponse$ApiTemplateResponseBuilder.class
+com\durg\chatbotapi\DurgChatbotApplication.class
+com\durg\chatbotapi\model\ApiResponse$ApiResponseBuilder.class
+com\durg\chatbotapi\service\DurgChatbotService.class
+com\durg\chatbotapi\ServletInitializer.class
+com\durg\chatbotapi\model\ApiTemplateResponse.class
+com\durg\chatbotapi\controller\DurgChatbotController.class
+com\durg\chatbotapi\repository\DurgChatbotRepository.class
+com\durg\chatbotapi\model\ApiResponse.class
