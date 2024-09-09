@@ -24,6 +24,7 @@ public class DurgChatbotRepository {
 
 		return queryResult;
 	}
+<<<<<<< HEAD
 
 	public List<Map<String, Object>> getResidenceOptions() {
 
@@ -46,6 +47,28 @@ public class DurgChatbotRepository {
 
 		queryResult = jdbcTemplate.queryForList(sqlQuery);
 
+=======
+	
+	public List<Map<String, Object>> getResidenceOptions() {
+		
+		List<Map<String, Object>> queryResult = new ArrayList<>();
+		
+		String sqlQuery = "SELECT resi_option_id AS id, resi_option_name AS name FROM residencce_option_master WHERE status=1";
+		
+		queryResult = jdbcTemplate.queryForList(sqlQuery);
+		
+		return queryResult;
+	}
+	
+	public List<Map<String, Object>> getBlockOptions() {
+		
+		List<Map<String, Object>> queryResult = new ArrayList<>();
+		
+		String sqlQuery = "SELECT block_option_id AS id, block_option_name AS name FROM block_option_master WHERE status=1";
+		
+		queryResult = jdbcTemplate.queryForList(sqlQuery);
+		
+>>>>>>> 4ff073cfe846c14bfe2891bd616ad2103dbe9ee9
 		return queryResult;
 	}
 }
