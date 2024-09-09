@@ -31,7 +31,7 @@ public class DurgChatbotRepository {
 
 		String sqlQuery = "SELECT resi_option_id AS id, resi_option_name AS name FROM residencce_option_master WHERE status=1";
 
-		System.out.println("sqlQuery: " + sqlQuery);
+//		System.out.println("sqlQuery: " + sqlQuery);
 
 		queryResult = jdbcTemplate.queryForList(sqlQuery);
 
